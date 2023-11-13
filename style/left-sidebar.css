@@ -1,0 +1,61 @@
+
+.left-sidebar{
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ top: 1px;
+ background-color: white;
+ width: 172px;
+ z-index: 200;
+ border-top: 1px solid rgb(214, 214, 214);
+}
+.left-sidebar-link{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-left: 90px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.left-sidebar-link .left-sidebar-tooltip,
+.post-section-content-link .post-section-content-tooltip{
+  position: absolute;
+  color: white;
+  background-color: #536471;
+  padding: 2px 3px;
+  border-radius: 2px;
+  font-size: 10px;
+  bottom: -22px;
+  pointer-events: none;
+  z-index: 100;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+.left-sidebar-link:hover .left-sidebar-tooltip,
+.post-section-content-link:hover .post-section-content-tooltip{
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+.left-sidebar-link:hover{
+  background-color: #E6E7E7;
+}
+.left-sidebar-link img{
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.new-feed{
+  height: 7px;
+  width: 7px;
+  background-color: #1D9BF0;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

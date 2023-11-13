@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter.com clone</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style/header.css">
+  <link rel="stylesheet" href="style/left-sidebar.css">
+  <link rel="stylesheet" href="style/post.css">
+  <link rel="stylesheet" href="style/general.css">
+  <link rel="stylesheet" href="style/right-sidebar.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <button class="for-you-btn header-btn">
+        For you
+        <div class="for-you-down-border"></div>
+      </button>
+      <button class="following-btn header-btn">
+        Following
+        <div class="following-btn-down-border"></div>
+      </button>
+      <button class="setting-btn">
+        <img src="icons/timeline-setting-icon.png" alt="">
+        <div class="header-tooltip">Timeline settings</div>
+      </button>
+    </div>
+  </header>
+
+  <nav class="left-sidebar">
+    <div class="left-sidebar-link">
+      <img src="icons/twitter-logo.png" alt="">
+    </div>
+    <div class="left-sidebar-link">
+      <img src="icons/home.svg" alt="">
+      <div class="left-sidebar-tooltip">Home</div>
+      <div class="new-feed"></div>
+    </div>
+    <div class="left-sidebar-link">
+      <img src="icons/search.svg" alt="">
+      <div class="left-sidebar-tooltip">Explore</div>
+    </div>
+    <div class="left-sidebar-link">
+      <img src="icons/notification-icon.png" alt="">
+      <div class="left-sidebar-tooltip">Notifications</div>
+      <div class="new-notification">1</div>
+    </div>
+    <div class="left-sidebar-link">
+      <img src="icons/message-icon-3.png" alt="">
+      <div class="left-sidebar-tooltip">Messages</div>
+    </div>
+    <div class="left-sidebar-link">
+      <img src="icons/list-icon-3.png" alt="">
+      <div class="left-sidebar-tooltip">Lists</div>
+    </div>
+    <div class="left-sidebar-link">
+      <img src="icons/bookmark-icon.png" alt="">
+      <div class="left-sidebar-tooltip">Bookmarks</div>
+    </div>
+    <div class="left-sidebar-link">
+      <img src="icons/communities-icon.jpg" alt="">
+      <div class="left-sidebar-tooltip">Communities</div>
+    </div>
+    <div class="left-sidebar-link">
+      <img src="icons/twitter-logo.png" alt="">
+      <div class="left-sidebar-tooltip">Premium</div>
+    </div>
+    <div class="left-sidebar-link">
+      <img src="icons/profile-icon.png" alt="">
+      <div class="left-sidebar-tooltip">Profile</div>
+    </div>
+    <div class="left-sidebar-link">
+      <img src="icons/more-icon.webp" alt="">
+      <div class="left-sidebar-tooltip">More</div>
+    </div>
+    <div class="left-sidebar-link">
+      <img src="icons/twitter-post-logo.webp" alt="">
+      <div class="left-sidebar-tooltip">Post</div>
+    </div>
+  </nav>
+
+  
+
+  <main>
+    <div class="container">
+      <section class="post-section">
+        <div class="post-section-profile-picture">
+          <img src="profile-picture/fahad.jpg" alt="">
+        </div>
+        <div class="post-section-content">
+            <input class="type-post" type="text" placeholder="What is happening?!">
+          <div class="post-section-content-down">
+            <div class="post-section-content-down-icon">
+              <div class="post-section-content-link">
+                <a href=""><i class="fa-regular fa-image"></i></a>
+                <div class="post-section-content-tooltip">Media</div>
+              </div>
+              <div class="post-section-content-link">
+                <a href=""><i class="fa-solid fa-gift"></i></a>
+                <div class="post-section-content-tooltip">GIF</div>
+              </div>
+              <div class="post-section-content-link">
+                <a href=""><i class="fa-solid fa-square-poll-horizontal"></i></a>
+                <div class="post-section-content-tooltip">Poll</div>
+              </div>
+              <div class="post-section-content-link">
+                <a href=""><i class="fa-regular fa-face-smile"></i></a>
+                <div class="post-section-content-tooltip">Emoji</div>
+              </div>
+              <div class="post-section-content-link">
+                <a href=""><i class="fa-regular fa-calendar"></i></a>
+                <div class="post-section-content-tooltip">Schedule</div>
+              </div>
+              <div class="post-section-content-link">
+                <a href=""><i class="fa-solid fa-location-dot"></i></a>
+                <div class="post-section-content-tooltip">Tag Location</div>
+              </div>
+              
+            </div>
+            <div class="post-btn">Post</div>
+          </div>
+        </div>
+      </section>
+
+      <div class="show-more-post">
+        <p><a class="show-more-post-text" href="">Show 210 posts</a></p>
+      </div>
+
+      <div class="first-post">
+
+        <div class="first-post-image">
+          <a href="https://twitter.com/BDCricTime/status/1723327654647197822" target="_blank">
+            <img class="first-post-profile-pic" src="post picture/first-post-profile-picture.jpg" alt="">
+          </a>
+        </div>
+        <div class="first-post-content">
+          <div class="first-post-text">
+            <div>
+              <div class="first-post-first-line">
+                <a href="https://twitter.com/BDCricTime" target="_blank">
+                  <p>bdcrictime.com
+                    <img src="icons/twitter-blue-icon.jpg" alt="">
+                    <span>@BDCricTime · 3h</span>
+                  </p>
+                </a>
+              </div>
+              <p class="first-post-second-line">Mahmudullah ends #CWC23 as the highest run-scorer for</p>
+            </div>
+            <div class="">
+              <img class="more-icon" src="icons/more-icon2.png" alt="">
+            </div>
+          </div>
+          <p class="first-post-third-line"><a href="https://twitter.com/hashtag/BANvAUS?src=hashtag_click" target="_blank">#AUSvBAN #LiveOnMyGP</a></p>
+          <div class="post-image">
+            <a href="https://twitter.com/BDCricTime/status/1723035136122368386" target="_blank">
+              <img class="post-picture" src="post picture/post-picture.jpg" alt="">
+            </a>
+          </div>
+          <div class="first-post-last-line">
+            <div class="bottom-icon-div">
+              <i class="fa-regular fa-comment bottom-icon"></i>
+              <p>4</p>
+            </div>
+            <div class="bottom-icon-div">
+              <i class="fa-solid fa-retweet bottom-icon"></i>
+              <p>28</p>
+            </div>
+            <div class="bottom-icon-div">
+              <i class="fa-regular fa-heart bottom-icon"></i>
+              <p>211</p>
+            </div>
+            <div class="bottom-icon-div">
+              <i class="fa-solid fa-square-poll-vertical bottom-icon"></i>
+              <p>5.3k</p>
+            </div>
+            <div class="bottom-icon-div">
+              <img class="bookmar-icon" src="icons/bookmark-icon-2.jpg" alt="">
+              <img class="share-icon" src="icons/share-icon.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="first-post">
+
+        <div class="first-post-image">
+          <a href="https://twitter.com/BDCricTime/status/1723327654647197822" target="_blank">
+            <img class="first-post-profile-pic" src="profile-picture/post-2-profile-picture.jpg" alt="">
+          </a>
+        </div>
+        <div class="first-post-content">
+          <div class="first-post-text">
+            <div>
+              <div class="first-post-first-line">
+                <a href="https://twitter.com/BDCricTime" target="_blank">
+                  <p>MASHRAFE BIN MORTAZA
+                    <img src="icons/twitter-blue-icon.jpg" alt="">
+                    <span>@mashrafebd
+                      ·
+                      23h</span>
+                  </p>
+                </a>
+              </div>
+              <p class="first-post-second-line">#Bangladesh</a> will Qualify for the Champions Trophy
+              <p>If #Australia can't chase within 22.4 overs then.</p>
+              <p class="first-post-third-line"><a href="">#AUSvBAN #CWC23</a></p>
+            </div>
+            <div class="">
+              <img class="more-icon" src="icons/more-icon2.png" alt="">
+            </div>
+          </div>
+          <div class="post-image">
+            <a href="https://twitter.com/mashrafebd/status/1723272181961121955/photo/1" target="_blank">
+              <img class="post-picture" src="post picture/image-post-2.jpg" alt="">
+            </a>
+          </div>
+          <div class="first-post-last-line">
+            <div class="bottom-icon-div">
+              <i class="fa-regular fa-comment bottom-icon"></i>
+              <p>4</p>
+            </div>
+            <div class="bottom-icon-div">
+              <i class="fa-solid fa-retweet bottom-icon"></i>
+              <p>28</p>
+            </div>
+            <div class="bottom-icon-div">
+              <i class="fa-regular fa-heart bottom-icon"></i>
+              <p>211</p>
+            </div>
+            <div class="bottom-icon-div">
+              <i class="fa-solid fa-square-poll-vertical bottom-icon"></i>
+              <p>5.3k</p>
+            </div>
+            <div class="bottom-icon-div">
+              <img class="bookmar-icon" src="icons/bookmark-icon-2.jpg" alt="">
+              <img class="share-icon" src="icons/share-icon.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="first-post">
+        <div class="first-post-image">
+          <a href="https://twitter.com/BDCricTime/status/1723327654647197822" target="_blank">
+            <img class="first-post-profile-pic" src="profile-picture/post-3profile-picture.jpg" alt="">
+          </a>
+        </div>
+        <div class="first-post-content">
+          <div class="first-post-text">
+            <div>
+              <div class="first-post-first-line">
+                <a href="https://twitter.com/BDCricTime" target="_blank">
+                  <p>Bangladesh Cricket
+                    <img src="icons/twitter-blue-icon.jpg" alt="">
+                    <span>@BCBtigers
+                      ·
+                      Nov 11</span>
+                  </p>
+                </a>
+              </div>
+              <p>ICC Men's Cricket World Cup 2023</p>
+              <p>If Bangladesh 🆚 Australia 🏏</p>
+              <p class="australia-won">Australia won the toss and decided to bowl first</p>
+              <p class="photo-creadit">Photo Credit: ICC/Getty</p>
+              <p class="first-post-third-line"><a href="">#BCB | #AUSvBAN | #CWC23</a></p>
+            </div>
+            <div class="">
+              <img class="more-icon" src="icons/more-icon2.png" alt="">
+            </div>
+          </div>
+          <div class="post-image">
+            <a href="https://twitter.com/mashrafebd/status/1723272181961121955/photo/1" target="_blank">
+              <img class="post-picture" src="post picture/post-3-image.jpg" alt="">
+            </a>
+          </div>
+          <div class="first-post-last-line">
+            <div class="bottom-icon-div">
+              <i class="fa-regular fa-comment bottom-icon"></i>
+              <p>22</p>
+            </div>
+            <div class="bottom-icon-div">
+              <i class="fa-solid fa-retweet bottom-icon"></i>
+              <p>17</p>
+            </div>
+            <div class="bottom-icon-div">
+              <i class="fa-regular fa-heart bottom-icon"></i>
+              <p>239</p>
+            </div>
+            <div class="bottom-icon-div">
+              <img class="bookmar-icon" src="icons/bookmark-icon-2.jpg" alt="">
+              <img class="share-icon" src="icons/share-icon.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <nav class="right-section">
+    <div class="right-section-header">
+      <input class="search-bar" type="text" placeholder="Search">
+      <img class="search-icon" src="icons/search.svg" alt="">
+    </div>
+    <div class="right-section-first">
+      <h3>Subscribe to Premium</h3>
+      <p>Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
+      <button class="right-section-subcriber-btn">Subscribe</button>
+    </div>
+
+    <div class="right-section-second">
+      <h3>Trends for you</h3>
+      <div class="right-section-second-div">
+        <div class="right-section-second-text">
+          <p>Sports · Trending</p>
+          <p class="right-section-second-text-bold">#BabarAzam𓃵</p>
+          <p>32.3K posts</p>
+        </div>
+        <div class="r-s-s-m-i-d"><img class="r-s-s-m-i" src="icons/more-icon2.png" alt=""></div>
+      </div>
+      <div class="right-section-second-div">
+        <div class="right-section-second-text">
+          <p>Trending</p>
+          <p class="right-section-second-text-bold">Pakistan Cricket</p>
+          <p>22.6K posts</p>
+        </div>
+        <div class="r-s-s-m-i-d"><img class="r-s-s-m-i" src="icons/more-icon2.png" alt=""></div>
+      </div>
+      <div class="right-section-second-div">
+        <div class="right-section-second-text">
+          <p>Trending</p>
+          <p class="right-section-second-text-bold">#TereBin2</p>
+        </div>
+        <div class="r-s-s-m-i-d"><img class="r-s-s-m-i" src="icons/more-icon2.png" alt=""></div>
+      </div>
+      <div class="right-section-second-div">
+        <div class="right-section-second-text">
+          <p>Trending in Bangladesh</p>
+          <p class="right-section-second-text-bold">#MunawarFaruqui𓃵</p>
+          <p>35K posts</p>
+        </div>
+        <div class="r-s-s-m-i-d"><img class="r-s-s-m-i" src="icons/more-icon2.png" alt=""></div>
+      </div>
+      <div class="right-section-second-div">
+        <div class="right-section-second-text">
+          <p>Entertainment · Trending</p>
+          <p class="right-section-second-text-bold">#SalmanKhan𓃵</p>
+          <p>29.2K posts</p>
+        </div>
+        <div class="r-s-s-m-i-d"><img class="r-s-s-m-i" src="icons/more-icon2.png" alt=""></div>
+      </div>
+      <div class="right-section-second-div">
+        <div class="right-section-second-text">
+          <p>Trending</p>
+          <p class="right-section-second-text-bold">#दिवाली_की_शुभकामनाएँ</p>
+          <p>16.2K posts</p>
+        </div>
+        <div class="r-s-s-m-i-d"> <img class="r-s-s-m-i" src="icons/more-icon2.png" alt=""></div>
+      </div>
+      <div class="right-section-second-div">
+        <div class="right-section-second-text">
+          <p>Politics · Trending</p>
+          <p class="right-section-second-text-bold">#ImranKhanPTI</p>
+          <p>6,149 posts</p>
+        </div>
+        <div class="r-s-s-m-i-d"><img class="r-s-s-m-i" src="icons/more-icon2.png" alt=""></div>
+      </div>
+      <div class="right-section-second-div">
+        <div class="right-section-second-text">
+          <p>Trending in Bangladesh</p>
+          <p class="right-section-second-text-bold">#BBKingMunawar</p>
+          <p>396K posts</p>
+        </div>
+        <div class="r-s-s-m-i-d"><img class="r-s-s-m-i" src="icons/more-icon2.png" alt=""></div>
+      </div>
+      <div class="right-section-second-div">
+        <div class="right-section-second-text">
+          <p>K-pop · Trending</p>
+          <p class="right-section-second-text-bold">Namjoon</p>
+          <p>59.7K posts</p>
+        </div>
+        <div class="r-s-s-m-i-d"><img class="r-s-s-m-i" src="icons/more-icon2.png" alt=""></div>
+      </div>
+      <div class="right-section-second-div">
+        <div class="right-section-second-text">
+          <p>Trending</p>
+          <p class="right-section-second-text-bold">Muslim Ummah</p>
+          <p>2,904 posts</p>
+        </div>
+        <div class="r-s-s-m-i-d"><img class="r-s-s-m-i" src="icons/more-icon2.png" alt=""></div>
+      </div>
+      <div class="right-section-show-more"><p>Show more</p></div>
+    </div>
+    
+  </nav>
+  <div class="bottom-bar">
+    <h3>Messages</h3>
+    <div class="bottom-bar-icon">
+      <i class="fa-regular fa-envelope"></i>
+      <i class="fa-solid fa-angles-up"></i>
+    </div>
+  </div>
+</body>
+</html>

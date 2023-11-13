@@ -1,0 +1,215 @@
+.container{
+  width: 610px;
+  border: 1px solid rgb(214, 214, 214);
+  border-top: none;
+  padding-top: 56px ;
+}
+
+.post-section{
+  position: relative;
+  top: 0px;
+  display: flex;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+.post-section-profile-picture{
+  padding: 20px 15px;
+}
+.post-section-profile-picture img{
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.post-section-content{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.type-post{
+  font-size: 18px;
+  padding: 10px 0px;
+  border: none;
+  outline: none;
+  margin-bottom: 30px;
+}
+.type-post::placeholder{
+  font-size: 20px;
+}
+.post-section-content-down{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post-section-content-down-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.post-section-content-down-icon a{
+  padding: 10px;
+  color: #1D9BF0;
+  border-radius: 50px;
+}
+.post-section-content-down-icon a:hover{
+  background-color: #E8F5FE;
+}
+.post-btn{
+  position: absolute;
+  right: 20px;
+  bottom: 8px;
+  align-items: center;
+  background-color: #8DCCF7;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.new-notification{
+  height: 18px;
+  width: 18px;
+  background-color: #1D9BF0;
+  border-radius: 10px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  top: 7px;
+  right: 8px;
+}
+
+/* Show More Section */
+
+.show-more-post{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+.show-more-post-text{
+  color: #1D9BF0;
+}
+
+/* First Post  */
+.first-post{
+  display: flex;
+  padding: 10px 0px 0px 10px;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+.first-post:hover{
+  background-color: rgb(247, 249, 249);
+}
+.first-post-image{
+  margin-right: 15px;
+}
+.first-post-profile-pic{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.first-post-profile-pic:hover{
+  background-color: #E8F5FE;
+}
+.first-post-text{
+  display: flex;
+  justify-content: space-between;
+}
+.first-post-first-line img{
+  height: 20px;
+  width: 20px;
+  align-items: center;
+}
+.first-post-first-line p{
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+.first-post-first-line span{
+  color: gray;
+  font-weight: normal;
+}
+.first-post-second-line{
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.first-post-third-line{
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.first-post-third-line a{
+  color: #1D9BF0;
+}
+.more-icon{
+  height: 15px;
+  width: 15px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.more-icon:hover{
+  background-color: #E8F5FE;
+}
+.post-picture{
+  width: 520px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.first-post-last-line{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.first-post-last-line div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bottom-icon{
+  color: grey;
+  padding: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.bottom-icon:hover{
+  background-color: #E1EEF7;
+  color: #1D9BF0;
+}
+.bottom-icon-div:hover{
+  color: #1D9BF0;
+}
+.bookmar-icon{
+  height: 18px;
+  width: 25px;
+  padding: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.share-icon{
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.share-icon:hover{
+  background-color: #E1EEF7;
+  color: #1D9BF0;
+}
+.bookmar-icon:hover{
+  background-color: #E1EEF7;
+  color: #1D9BF0;
+}
+
+/* Second Post */
+.australia-won{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.photo-creadit{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
